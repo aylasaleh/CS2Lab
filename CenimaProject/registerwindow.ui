@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>983</width>
-    <height>595</height>
+    <width>555</width>
+    <height>610</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -375,14 +375,17 @@
   <widget class="QLineEdit" name="register_error">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>580</y>
+     <x>170</x>
+     <y>570</y>
      <width>171</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
     <string>*all fields mjust be filled </string>
+   </property>
+   <property name="frame">
+    <bool>true</bool>
    </property>
   </widget>
   <widget class="QLineEdit" name="username_error">

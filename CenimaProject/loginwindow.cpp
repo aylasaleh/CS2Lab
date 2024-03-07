@@ -20,11 +20,12 @@ LoginWindow::~LoginWindow()
 
 void LoginWindow::on_LoginB_clicked()
 {
-    for (int i = 0; i < usersCount-1 ; i++) // go through all elements of arrays username and passwords
+    QString u = ui-> UsernameLE -> text();
+    QString p = ui-> PasswordLE -> text();
+
+    for (int i = 0; i < usersCount ; i++) // go through all elements of arrays username and passwords
     {
-        QString u = ui-> UsernameLE -> text();
-        QString p = ui-> PasswordLE -> text();
-        if (( u == usernames[i])&&(p == passwords[i])) // if username is equal and password
+        if (( u == usernames[i]) && (p == passwords[i])) // if username is equal and password
         {// note to make it case sensetive?
             //go to welcome page
             hide (); // hiding this page

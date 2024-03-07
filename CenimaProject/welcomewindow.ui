@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>693</width>
+    <height>532</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -29,8 +29,8 @@
   <widget class="QPushButton" name="LogoutB">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>240</y>
+     <x>30</x>
+     <y>480</y>
      <width>100</width>
      <height>32</height>
     </rect>
@@ -44,8 +44,8 @@
     <rect>
      <x>37</x>
      <y>50</y>
-     <width>331</width>
-     <height>171</height>
+     <width>611</width>
+     <height>381</height>
     </rect>
    </property>
    <property name="text">

@@ -14,13 +14,11 @@ class RegisterWindow : public QDialog
 public:
     explicit RegisterWindow(QWidget *parent = nullptr);
     ~RegisterWindow();
-    bool hasError ();
+    bool hasError();
 
 
 private slots:
     void on_register_2_clicked();
-
-    void on_female_clicked();
 
 private:
     Ui::RegisterWindow *ui;

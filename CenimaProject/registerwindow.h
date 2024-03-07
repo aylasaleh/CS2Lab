@@ -14,7 +14,7 @@ class RegisterWindow : public QDialog
 public:
     explicit RegisterWindow(QWidget *parent = nullptr);
     ~RegisterWindow();
-    bool hasError (bool x);
+    bool hasError ();
 
 
 private slots:
